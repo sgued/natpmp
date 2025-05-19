@@ -14,7 +14,7 @@ jobs:
 
       # Rust cache
       - name: Rust cargo cache
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         env:
           cache-name: cache-rust-cargo
         with:
@@ -45,7 +45,7 @@ jobs:
 
       # Rust cache
       - name: Rust cargo cache
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         env:
           cache-name: cache-rust-cargo
         with:
@@ -76,7 +76,7 @@ jobs:
 
       # Rust cache
       - name: Rust cargo cache
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         env:
           cache-name: cache-rust-cargo
         with:
